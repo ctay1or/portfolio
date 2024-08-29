@@ -4,29 +4,38 @@
 
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/normalize.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Euphoria+Script&family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/1758b88242.js"
+      crossorigin="anonymous"
+    ></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
     <header>
-      <div id="content-wrapper">
+      <div class="content-wrapper">
         <div id="header-content-wrapper">
-          <div id="nav-wrapper">
-            <nav>
-              <ul id="menu-list">
-                <li id="#about">about</li>
-                <li id="#toolbox">toolbox</li>
-                <li id="#projects">projects</li>
-                <li id="#contact">contact</li>
-              </ul>
-            </nav>
-          </div>
-          <!-- nav-wrapper ends -->
+          <nav>
+            <ul>
+              <li><a href="#about">about</a></li>
+              <li><a href="#skills">skills</a></li>
+              <li><a href="#projects">work</a></li>
+              <li><a href="#contact">contact</a></li>
+            </ul>
+          </nav>
 
           <div id="hero-wrapper">
-            <img id="boots" src="img/boots.png" />
-            <img id="background" src="img/background.png" />
+            <img id="boots" src="img/boots2.png" />
             <h1>
-              Don't go through life.<br /><span>Grow</span> through life.<br />~
-              Eric Butterworth
+              Don't go through life.<br /><span id="grow-span"
+                ><a>Grow through life.</a></span
+              ><br /><span id="butterworth-span">~ Eric Butterworth</span>
             </h1>
           </div>
           <!-- hero-wrapper ends -->
@@ -36,22 +45,21 @@
       <!-- content-wrapper ends -->
     </header>
 
-
     <main>
       <div id="main-content-wrapper">
         <section id="about">
-          <div id="content-wrapper">
+          <div class="content-wrapper">
             <div id="about-content-wrapper">
               <div id="intro-wrapper">
                 <img id="my-pic" src="img/me.png" />
                 <div id="about-list-wrapper">
                   <h2>hi, i'm carrie.</h2>
                   <h3>
-                    <span id="web-dev">web developer.</span><br />
+                    <span id="web-dev">>👩‍💻 web developer.<</span><br />
 
                     tea drinker.<br />native texan.<br />language nerd.<br /><span
                       id="growth-junkie-span"
-                      >personal growth junkie.</span
+                      >🌱 personal growth junkie.</span
                     ><br />barbecue snob.
                   </h3>
                 </div>
@@ -61,24 +69,25 @@
 
               <div id="tech-journey-wrapper">
                 <p id="tech-journey-para1">
-                  <span id="tech-journey-span">My journey into tech</span> has
+                  <span id="tech-journey-span">my journey into tech</span> has
                   not been linear, but one with hills and valleys and unexpected
-                  detours. My past work experience has included a bundle of
-                  different industries like healthcare and insurance, each
-                  rewarding in their own way but something was always missing… I
-                  needed a challenge that would also engage my creativity. Once
-                  I got a glimpse into tech and started bringing ideas to life
-                  with code, I knew this is what I wanted to do. While this is a
+                  detours. I've spent time in different industries like
+                  healthcare and insurance and while they were each rewarding in
+                  their own way, something was always missing… I needed a
+                  challenge that would also engage my creativity. Once I got a
+                  glimpse into tech and started bringing ideas to life with
+                  code, I knew this is what I wanted to do. While this will be a
                   change for me, I believe much of life is determined by how we
-                  choose to see things and
+                  choose to see things.
                   <span id="growth-mindset-span"
-                    >a growth mindset is <em>everything</em></span
-                  >. Broadening my skill set has been very fulfilling thus far
-                  and I’m thrilled to see where this road takes me!
+                    >A growth mindset is <em>everything.</em></span
+                  >
+                  Broadening my skill set has been very fulfilling thus far and
+                  I’m thrilled to see where this road takes me!
                 </p>
                 <p id="tech-journey-para2">
-                  When I’m not immersed in code I enjoy time with family, but
-                  you can also catch me with a sketchbook, an audiobook
+                  When I’m not immersed in code I'm spending time with family,
+                  but you can also catch me with a sketchbook, an audiobook
                   (sometimes both) or on a pickleball court.
                 </p>
               </div>
@@ -90,165 +99,212 @@
         </section>
         <!-- about section ends -->
 
-        <section id="toolbox">
-          <div id="content-wrapper">
-            <div id="toolbox-content-wrapper">
-              <h2>toolbox</h2>
-
-              <div id="skills-wrapper">
-                <h3>skills</h3>
-                <ul id="skills-list">
-                  <li>html5</li>
-                  <li>css3</li>
-                  <li>git and command line</li>
-                  <li>github</li>
-                  <li>version control</li>
-                  <li>flexbox</li>
-                  <li>media queries</li>
-                  <li>responsive typography</li>
-                  <li>apis</li>
-                  <li>manipulating the dom</li>
-                  <li>vanilla javascript</li>
-                  <li>es6</li>
-                  <li>jsx</li>
-                  <li>managing data flow</li>
-                  <li>react</li>
-                </ul>
-              </div>
-              <!-- skills-wrapper ends -->
-
-              <div id="tech-stack-wrapper">
-                <h3>tech stack</h3>
-                <ul id="tools-list">
-                  <li>chrome devtools</li>
-                  <li>visual studio code</li>
-                  <li>git</li>
-                  <li>github</li>
-                  <li>command line</li>
-                  <li>codesandbox</li>
-                  <li>slack</li>
-                </ul>
-              </div>
-              <!-- tech-stack-wrapper ends -->
+        <section id="skills">
+          <div class="content-wrapper">
+            <h2>Skills</h2>
+            <div id="skills-wrapper">
+              <h3>developer skills</h3>
+              <ul>
+                <li>html5</li>
+                <li>css3</li>
+                <li>git and command line</li>
+                <li>github</li>
+                <li>version control</li>
+                <li>flexbox</li>
+                <li>media queries</li>
+                <li>responsive typography</li>
+                <li>apis</li>
+                <li>manipulating the dom</li>
+                <li>vanilla javascript</li>
+                <li>es6</li>
+                <li>jsx</li>
+                <li>managing data flow</li>
+              </ul>
             </div>
-            <!-- toolbox-content-wrapper ends -->
+            <!-- skills-wrapper ends -->
+
+           
+            <div id="tech-stack-wrapper">
+              <h3>tech stack</h3>
+              <ul>
+                <li>chrome devtools</li>
+                <li>visual studio code</li>
+                <li>git</li>
+                <li>github</li>
+                <li>command line</li>
+                <li>codesandbox</li>
+              </ul>
+            </div>
+            <!-- tech-stack-wrapper ends -->
           </div>
           <!-- content-wrapper ends -->
         </section>
-        <!-- toolbox section ends -->
+        <!-- skills section ends -->
 
         <section id="projects">
-          <div id="content-wrapper">
-            <div id="projects-content-wrapper">
-              <h2>projects</h2>
+          <div class="content-wrapper">
+            <h2>Work</h2>
 
-              <div id="notes-project">
-                <img id="notes-img" src="img/sticky-notes.png" />
+            <div class="project-content-wrapper">
+              <div class="project">
+                <img class="project-img" src="img/sticky-notes.png" />
                 <h3>super sticky notes</h3>
                 <p>
                   An interactive app built with React that will allow users to
                   create “sticky notes” on their computer to keep track of to-do
                   items. The user can add, write, edit and remove notes as
-                  needed. The app was built in CodeSandbox using ES6, JSX,
-                  managing data flow and manipulating the DOM.
+                  needed.
+                  <br /><br />
+                  <span>Skills & Tools:</span> CodeSandbox, ES6, JSX, Managing
+                  Data Flow and Manipulating the DOM.
                 </p>
-                <button id="notes-button">✨ live site</button>
+                <a href="https://xh7gt3.csb.app/" target="_blank"
+                  ><button id="notes-button">✨ live site</button></a
+                >
               </div>
-              <!-- notes-project ends -->
+              <!-- project ends -->
+            </div>
+            <!-- project-content-wrapper ends -->
 
-              <div id="gallery-project">
-                <img id="gallery-img" src="img/repo-gallery.png" />
+            <div class="project-content-wrapper">
+              <div class="project">
+                <img
+                  class="project-img"
+                  id="repo-gallery-img"
+                  src="img/repo-gallery.png"
+                />
                 <h3>github repo gallery</h3>
                 <p>
                   This project pulls data from my GitHub portfolio to create a
                   gallery of repos. Visitors to this site can search by name and
-                  click on repos to see more details. Built using Vanilla JS,
-                  GitHub APIs and manipulating the DOM.
+                  click on repos to see more details.
+                  <br /><br />
+                  <span>Skills & Tools:</span> Vanilla JavaScript, GitHub APIs
+                  and Manipulating the DOM.
                 </p>
-                <button id="gallery-button">✨ live site</button>
+                <a
+                  href="https://ctay1or.github.io/repo-gallery/"
+                  target="_blank"
+                  ><button id="gallery-button">✨ live site</button></a
+                >
               </div>
-              <!-- gallery-project ends -->
+              <!-- project ends -->
+            </div>
+            <!-- project-content-wrapper ends -->
 
-              <div id="guess-word-project">
-                <img id="guess-word-img" src="img/guess-the-word.png" />
+            <div class="project-content-wrapper">
+              <div class="project">
+                <img class="project-img" src="img/guess-the-word.png" />
                 <h3>guess the word</h3>
                 <p>
-                  Players guess the word by entering one letter at a time. If
+                  In this game, players guess the word by entering one letter at a time. If
                   the player guesses all the letters correctly before they use
-                  up their allotted guesses, they win! Built using Vanilla
-                  JavaScript and manipulating the DOM
+                  up their allotted guesses, they win!
+                  <br /><br />
+                  <span>Skills & Tools:</span> Vanilla JavaScript and
+                  Manipulating the DOM.
                 </p>
-                <button id="guess-word-button">✨ live site</button>
+                <a
+                  href="https://ctay1or.github.io/guess-the-word/"
+                  target="_blank"
+                  ><button id="guess-word-button">✨ live site</button></a
+                >
               </div>
-              <!-- guess-word-project ends -->
+              <!-- project ends -->
+            </div>
+            <!-- project-content-wrapper ends -->
 
-              <div id="unplugged-project">
-                <img id="unplugged-img" src="img/unplugged.png" />
+            <div class="project-content-wrapper">
+              <div class="project">
+                <img class="project-img" src="img/unplugged.png" />
                 <h3>unplugged</h3>
                 <p>
-                  A multi-page responsive website coded with Flexbox. This
+                  A multi-page responsive website coded with flexbox. This
                   versatile design has several sections, including a Cards
                   design pattern, that can be repurposed for different sites.
-                  Built with HTML5, CSS3, Flexbox, Media Queries, and Responsive
-                  Typography.
+                  <br /><br />
+                  <span>Skills & Tools:</span> HTML5, CSS3, Flexbox, Media
+                  Queries, and Responsive Typography.
                 </p>
-                <button id="unplugged-button">✨ live site</button>
+                <a href="https://ctay1or.github.io/unplugged/" target="_blank"
+                  ><button id="unplugged-button">✨ live site</button></a
+                >
               </div>
-              <!-- unplugged-project ends -->
+              <!-- project ends -->
+            </div>
+            <!-- project-content-wrapper ends -->
 
-              <div id="pickings-project">
-                <img id="pickings-img" src="img/rogue-pickings.png" />
+            <div class="project-content-wrapper">
+              <div class="project">
+                <img class="project-img" src="img/rogue-pickings.png" />
                 <h3>rogue pickings</h3>
                 <p>
                   A simple homepage perfect for a pop-up restaurant or food
                   truck. Originally a static website, I converted it into a
-                  responsive design using Flexbox. This site was built using
-                  HTML5, CSS3, Flexbox, Media Queries and Responsive Typography.
+                  responsive design using Flexbox.
+                  <br /><br />
+                  <span>Skills & Tools:</span> HTML5, CSS3, Flexbox, Media
+                  Queries and Responsive Typography.
                 </p>
-                <button id="pickings-button">✨ live site</button>
+                <a
+                  href="https://ctay1or.github.io/responsive-rogue-pickings/"
+                  target="_blank"
+                  ><button id="pickings-button">✨ live site</button></a
+                >
               </div>
-              <!-- pickings-project ends -->
-
+              <!-- project ends -->
             </div>
-            <!-- projects-content-wrapper ends -->
+            <!-- project-content-wrapper ends -->
           </div>
           <!-- content-wrapper ends-->
         </section>
         <!-- projects section ends -->
 
         <section id="contact">
-          <div id="content-wrapper">
+          <div class="content-wrapper">
+            <h2>Let's chat!</h2>
             <div id="contact-content-wrapper">
-              <h2>let's connect</h2>
-              <img id="laptop-flowers" src="img/envelope.png" />
+              <img id="laptop-flowers" src="img/laptop.png" />
 
               <div id="contact-methods-wrapper">
-                <div id="hire">
+                <div class="hire">
                   <h3>hire me</h3>
-                  <img id="envelope-icon" />
-                  <p>ctaylor.code@gmail.com</p>
+                  <div class="email-info">
+                    <a href="mailto:ctaylor.code@gmail.com" target="_blank"
+                      ><img class="envelope-icon" src="img/envelope-icon.png"
+                    /></a>
+                    <p>ctaylor.code@gmail.com</p>
+                  </div>
                 </div>
                 <!-- hire ends -->
 
-                <div id="follow">
+                <div class="follow">
+                  <div class="divider"></div>
                   <h3>follow me</h3>
-                  <img id="github-icon" />
-                  <!--add link-->
+                  <a href="https://github.com/ctay1or" target="_blank"
+                    ><img class="github-icon" src="img/github-mark.png"
+                  /></a>
                 </div>
                 <!-- follow ends -->
 
-                <div id="meet">
+                <div class="meet">
+                  <div class="divider"></div>
                   <h3>meet me</h3>
-                  <img id="map-pin-icon" />
-                  <p>Central Texas</p>
-                  <p>Know a good meetup?</p>
+                  <div class="location">
+                    <img class="pushpin-icon" src="img/pushpin.png" />
+                    <p>Central<br />Texas</p>
+                  </div>
                 </div>
                 <!-- meet ends -->
-
               </div>
               <!-- contact-methods-wrapper ends -->
             </div>
             <!-- contact-content-wrapper ends -->
+            <div class="talk-soon">
+              <h2>I'd love to work<br> with you! ☺
+              </h2>
+            </div>
+
           </div>
           <!-- content-wrapper ends -->
         </section>
@@ -257,11 +313,9 @@
       <!-- main-content-wrapper ends -->
     </main>
 
-
     <footer>
-      <img id="growth-img" />
+      <img id="seedling-img" src="img/seedling.png" />
       <p>Copyright 2024 | Carrie Taylor</p>
     </footer>
-
   </body>
 </html>
