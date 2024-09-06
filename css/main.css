@@ -44,7 +44,7 @@ p {
   font-size: 1em;
   font-weight: 400;
   text-align: left;
-  line-height: 1.5em;
+  line-height: 1.45em;
 }
 
 /* === HEADER STYLES === */
@@ -448,12 +448,12 @@ main {
   width: 55%;
   margin-bottom: 20px;
   border: 12px solid white;
-  /*transform: rotate(6deg);*/
+  transform: rotate(7deg);
   box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.4);
 }
 
 #laptop-flowers:hover {
-  /*transform: rotate(8deg);*/
+  transform: rotate(10deg);
 }
 
 #contact-methods-wrapper {
@@ -526,7 +526,7 @@ main {
 
 #contact p {
   margin-left: 15px;
-  font-size: 1em;
+  font-size: .75em;
 }
 
 #contact .talk-soon {
@@ -843,7 +843,7 @@ footer p {
 
   #laptop-flowers {
     width: 35%;
-    transform: rotate(8deg);
+    transform: rotate(7deg);
   }
 
   #laptop-flowers:hover {
@@ -1176,7 +1176,7 @@ footer p {
 
   #contact-methods-wrapper {
     width: 70%;
-    padding: 70px 0;
+    padding: 80px 0;
     margin-bottom: 0;
     flex-flow: row nowrap;
     align-items: flex-start;
