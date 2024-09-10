@@ -945,23 +945,23 @@ footer p {
   html {
     width: 85%;
     margin: 0 auto;
-    /*background: #927055;*/
+    background: #927055;
     /*background: url(../img/html-lightbrown.jpg) repeat #927055;*/
     /*background: url(../img/html-darkbrown.jpg) repeat #927055;*/
     /*background: url(../img/brown-background.jpg) repeat #927055;*/
     /*background: url(../img/light-texture.jpg) repeat #927055;*/
-    background: url(../img/light-texture.jpg) repeat #927055;
+    /*background: url(../img/light-texture.jpg) repeat #927055;*/
     background-size: auto;
     background-attachment: fixed;
-    /*outline:5px dashed #ad916d;*/
-    /*border-left: 17px solid #AA8252;
-    border-right: 17px solid #AA8252;*/
+    outline: 4px dashed #ad916d;
+    border-left: 7px solid #84664e;
+    border-right: 7px solid #84664e;
     font-size: 16px;
   }
 
   body {
     /*box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.4);*/
-    margin: 15px 0;
+    margin: 0;
   }
 
   .content-wrapper {
