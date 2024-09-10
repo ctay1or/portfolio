@@ -14,7 +14,7 @@ body {
   flex-flow: column nowrap;
   margin: 0;
   padding: 0;
-  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+  /*box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);*/
 }
 
 .content-wrapper {
@@ -164,7 +164,8 @@ h1 {
 /* --- About Section --- */
 
 main {
-  border-top: 5px dashed #efcdb2;
+  border-top: 3px dashed #efcdb2;
+  margin-top: 5px;
 }
 
 #about {
@@ -175,8 +176,8 @@ main {
   justify-content: center;
   align-items: center;
   flex-flow: column nowrap;
-  border-bottom: 5px dashed #efcdb2;
-  margin-bottom: 0;
+  border-bottom: 3px dashed #efcdb2;
+  margin-bottom: 5px;
 }
 
 #about .content-wrapper {
@@ -243,7 +244,7 @@ main {
 }
 
 #tech-journey-wrapper {
-  border: 4px dashed #efcdb2;
+  border: 3px dashed #efcdb2;
   padding: 20px;
   width: 100%;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
@@ -291,7 +292,6 @@ main {
 
 #skills h2 {
   margin: 0 0 40px 20px;
-  
 }
 
 
@@ -344,7 +344,7 @@ main {
   background-color: #cbab81;
   display: flex;
   justify-content: center;
-  border-top: 5px dashed #efcdb2;
+  /*border-top: 5px dashed #efcdb2;*/
 }
 
 #projects h2 {
@@ -359,7 +359,7 @@ main {
 
 .project-content-wrapper {
   padding: 50px 0 25px 0;
-  border-top: 4px dashed #a78d6b;
+  border-top: 3px dashed #a78d6b;
 }
 
 .project {
@@ -372,14 +372,14 @@ main {
 .project-img {
   width: 90%;
   margin: 20px 0;
-  border: 7px solid #a78d6b;
+  border: 9px solid #bfa079;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
 }
 
 #projects img:hover {
   
   /*border: 10px dashed #e2c49d;*/
-  border: 7px dashed #efcdb2;
+  border: 9px double #e4bf8f;
 }
 
 #projects img:active {
@@ -414,7 +414,7 @@ main {
 
 /* --- Contact Section --- */
 #contact {
-  background: url(../img/brown-leaves.jpg) no-repeat #f7eee0ef;
+  background: url(../img/brown-leaves.jpg) no-repeat #f7eee0f3;
   background-size: cover;
   background-blend-mode: soft-light;
   display: flex;
@@ -422,7 +422,7 @@ main {
   padding: 15px 0;
   margin-top: 0;
   margin-bottom: 0;
-  border-top: 5px dashed #efcdb2;
+  /*border-top: 5px dashed #efcdb2;*/
 }
 
 #contact .content-wrapper {
@@ -464,7 +464,7 @@ main {
   justify-content: center;
   align-items: center;
   flex-flow: column wrap;
-  border: 4px dashed #efcdb2;
+  border: 3px dashed #efcdb2;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
 }
 
@@ -561,8 +561,8 @@ footer {
   justify-content: center;
   align-items: center;
   flex-flow: column nowrap;
-  border-top: 4px dashed #efcdb2;
-  border-bottom: 4px dashed #efcdb2;
+  border-top: 3px dashed #efcdb2;
+  border-bottom: 3px dashed #efcdb2;
 }
 
 footer a {
@@ -945,15 +945,23 @@ footer p {
   html {
     width: 85%;
     margin: 0 auto;
-    background: url(../img/wall.jpg) repeat #7a4f3a;
+    /*background: #927055;*/
+    /*background: url(../img/html-lightbrown.jpg) repeat #927055;*/
+    /*background: url(../img/html-darkbrown.jpg) repeat #927055;*/
+    /*background: url(../img/brown-background.jpg) repeat #927055;*/
+    /*background: url(../img/light-texture.jpg) repeat #927055;*/
+    background: url(../img/light-texture.jpg) repeat #927055;
     background-size: auto;
-    background-blend-mode: soft-light;
-    border-left: 20px solid #624A3E;
-    border-right: 20px solid #624A3E;
+    background-attachment: fixed;
+    /*outline:5px dashed #ad916d;*/
+    /*border-left: 17px solid #AA8252;
+    border-right: 17px solid #AA8252;*/
     font-size: 16px;
   }
 
   body {
+    /*box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.4);*/
+    margin: 15px 0;
   }
 
   .content-wrapper {
