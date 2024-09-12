@@ -110,7 +110,7 @@ header nav ul li a {
 }
 
 header a:hover {
-  color: #c5622b;
+  color: #c5fffc;
   /*text-shadow: #284f54 0.5px 2px;*/
 }
 
@@ -136,7 +136,7 @@ h1 {
   font-weight: 800;
   font-size: 2.5em;
   line-height: 1.25em;
-  color: #f7eee0;
+  color:#fffaf1;
   text-shadow: #284f54 0.5px 2px;
   width: 95%;
   text-align: center;
@@ -169,7 +169,7 @@ main {
 }
 
 #about {
-  background:#fff8ed;
+  background: #fff8ed;
   padding: 80px 0;
   width: 100%;
   display: flex;
@@ -319,7 +319,7 @@ main {
 }
 
 #skills ul li {
-  background-color: #f7eee0;
+  background-color: #fff8ed;
   margin-bottom: 20px;
   width: 100%;
   font-size: 1em;
@@ -329,10 +329,10 @@ main {
   box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4);
 }
 
-#skills ul li:hover {
+/*#skills ul li:hover {
   background-color: #f7eee058;
   color: #c5622b;
-}
+}*/
 
 
 
@@ -414,7 +414,7 @@ main {
 
 /* --- Contact Section --- */
 #contact {
-  background: url(../img/brown-leaves.jpg) no-repeat #f7eee0f3;
+  background: url(../img/brown-leaves.jpg) no-repeat #fbf7efef;
   background-size: cover;
   background-blend-mode: soft-light;
   display: flex;
@@ -457,9 +457,9 @@ main {
 }
 
 #contact-methods-wrapper {
-  background: #f7eee0;
+  background: #fffaf1;
   margin: 0 20px 25px 20px;
-  padding: 0 15px 20px 15px;
+  padding: 0 65px 20px 65px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -496,6 +496,7 @@ main {
   width: 100%;
   display: flex;
   justify-content: center;
+  text-decoration: none;
 }
 
 #contact h3 {
@@ -503,16 +504,19 @@ main {
   margin-bottom: 30px;
 }
 
-.envelope-icon {
-  width: 20%;
+#contact .hire h3 {
+  
 }
-.github-icon {
-  width: 20%;
+
+#contact i {
+  font-size: 3.25em;
+  margin-top: 15px;
 }
-.pushpin-icon {
-  width: 14%;
-  height: 14%;
+
+.fa-solid fa-envelope fa-xl {
+  margin-top: 30px;
 }
+
 
 .location {
   display: flex;
@@ -521,7 +525,7 @@ main {
 }
 
 #contact .hire p {
-  margin-top: 10px;
+  margin-top: 40px;
 }
 
 #contact p {
@@ -547,15 +551,13 @@ main {
   text-align: center;
 }
 
-#contact .talk-soon h2:hover {
-}
 
 /* === FOOTER STYLES === */
 
 footer {
-  background: #f7eee0;
+  background: #cbab812b;
   margin: 0px 0 10px 0;
-  padding-top: 30px;
+  padding-top: 0;
   height: auto;
   display: flex;
   justify-content: center;
@@ -565,22 +567,31 @@ footer {
   border-bottom: 3px dashed #efcdb2;
 }
 
+footer span {
+  font-size: 1em;
+  color:#94af3b;
+  padding: 0;
+}
+
 footer a {
   display: flex;
   justify-content: center;
-  width: 20%;
 }
 
+
 footer #seedling-img {
-  width: 100%;
-  margin: 0;
+  width: 30%;
 }
 
 footer p {
   color: #3d2018;
   font-size: 0.75em;
-  margin-top: 25px;
+  margin-top: 0;
 }
+
+
+
+
 
 /* ========================= */
 /* === RESPONSIVE STYLES === */
@@ -857,7 +868,7 @@ footer p {
     height: auto;
     margin: 0;
     padding: 30px 0;
-    margin-bottom: 45px;
+    margin-bottom: 60px;
   }
 
   .hire,
@@ -888,22 +899,13 @@ footer p {
     align-items: center;
   }
 
-  .envelope-icon {
-    width: 27%;
+  #contact i {
+    margin-bottom: 30px;
   }
 
   .hire .email-info p {
     margin-left: 0;
     padding-left: 0;
-  }
-
-  .github-icon {
-    width: 25%;
-  }
-
-  .pushpin-icon {
-    height: 50px;
-    width: 50px;
   }
 
   #contact .talk-soon {
@@ -913,7 +915,7 @@ footer p {
   }
 
   #contact .talk-soon h2 {
-    margin: 20px 200px 40 0;
+    margin: 20px 200px 40px 0;
     padding: 0;
     font-size: 3em;
     text-align: center;
@@ -926,18 +928,39 @@ footer p {
 
   footer {
     margin: 0px 0 10px 0;
-    padding: 60px 0 15px 0;
+    padding: 0px 0 15px 0;
   }
 
   footer a {
-    width: 12%;
+    width: 20%;
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  footer #seedling-img {
+    width: 100%;
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  footer p span {
+    margin: 0;
+    padding: 0;
+    font-size: 1.25em;
   }
 
   footer p {
     font-size: 1em;
-    margin-top: 40px;
+    margin-top: 10px;
+    padding-top: 0;
   }
 }
+
+
+
+
+
+
 
 @media (min-width: 1280px) {
   /* ===--- Desktop ---=== */
@@ -945,17 +968,18 @@ footer p {
   html {
     width: 85%;
     margin: 0 auto;
-    background: #927055;
+    background: #9e8462;
     /*background: url(../img/html-lightbrown.jpg) repeat #927055;*/
     /*background: url(../img/html-darkbrown.jpg) repeat #927055;*/
     /*background: url(../img/brown-background.jpg) repeat #927055;*/
     /*background: url(../img/light-texture.jpg) repeat #927055;*/
     /*background: url(../img/light-texture.jpg) repeat #927055;*/
+    background: ;
     background-size: auto;
     background-attachment: fixed;
-    outline: 4px dashed #ad916d;
-    border-left: 7px solid #84664e;
-    border-right: 7px solid #84664e;
+    outline: 5px dashed #d1a57e;
+    border-left: 15px solid #a2855d;
+    border-right: 15px solid #9a805f;
     font-size: 16px;
   }
 
@@ -1190,8 +1214,12 @@ footer p {
     align-items: flex-start;
   }
 
-  #contact .hire h3 {
-    margin-bottom: 21px;
+  #contact h3 {
+    margin-bottom: 50px;
+  }
+
+  #contact i {
+    font-size: 4.5em;
   }
 
   #contact p {
@@ -1219,12 +1247,16 @@ footer p {
   /* --- FOOTER --- */
 
   footer {
-    padding: 60px 0 30px 0;
+    padding: 0;
     margin-top: 0;
   }
 
-  footer a {
-    width: 8%;
+  footer #seedling-img {
+    width: 75%;
+  }
+
+  footer span {
+    font-size: 1.25em;
   }
 
   footer p {
