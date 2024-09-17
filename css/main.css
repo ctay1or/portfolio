@@ -27,7 +27,7 @@ h2 {
   font-style: normal;
   font-size: 3.5em;
   color: #5e9e9c;
-  text-shadow: #49312b 0.8px 3px;
+  /*text-shadow: #49312b 0.5px 2px;*/
   text-align: left;
   margin-left: 15px;
 }
@@ -58,6 +58,7 @@ header {
   position: relative;
   display: flex;
   justify-content: center;
+  border-bottom: 4px dashed #284f5441;
   width: 100%;
 }
 
@@ -123,7 +124,7 @@ header nav a:active {
 
 #boots {
   max-width: 60%;
-  margin-top: 60px;
+  margin: 60px 0 20px 0;
   box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.4);
 }
 
@@ -133,16 +134,15 @@ h1 {
   font-size: 2.5em;
   line-height: 1.25em;
   color: #fffaf1;
-  text-shadow: #284f54 0.5px 2px;
+  /*text-shadow: #284f54 0.5px 2px;*/
   width: 95%;
   text-align: center;
   transform: rotate(-5deg);
   padding-top: 0;
 }
 
-#grow-span:hover {
-  color: #c9ea5f;
-  text-shadow: #49312b 0.5px 2px;
+h1 #leaves {
+  text-shadow: none;
 }
 
 #butterworth-span {
@@ -156,8 +156,7 @@ h1 {
 /* --- About Section --- */
 
 main {
-  border-top: 3px dashed #efcdb2;
-  margin-top: 5px;
+  margin-top: 0;
 }
 
 #about {
@@ -168,8 +167,8 @@ main {
   justify-content: center;
   align-items: center;
   flex-flow: column nowrap;
-  border-bottom: 3px dashed #efcdb2;
-  margin-bottom: 5px;
+  /*border-bottom: 4px dashed #efcdb2;*/
+  margin-bottom: 0;
 }
 
 #about .content-wrapper {
@@ -208,10 +207,9 @@ main {
 
 #about h2 {
   margin: 0;
-  font-size: 2px;
   padding: 0;
   text-shadow: none;
-  font-size: 2em;
+  font-size: 1.8em;
   font-family: "quicksand", sans-serif;
   color: #c5622b;
 }
@@ -271,10 +269,12 @@ main {
   /*background:#EFCEB2;*/
   background-size: cover;
   background-blend-mode: soft-light;
+  margin-bottom: 0;
   padding: 70px 0 60px 0;
   width: 100%;
   display: flex;
   justify-content: center;
+  /*border-bottom:4px dashed #E2BE8F;*/
 }
 
 #skills .content-wrapper {
@@ -286,6 +286,7 @@ main {
 
 #skills h2 {
   margin: 0 0 40px 20px;
+  color:#489098;
 }
 
 #skills-wrapper,
@@ -327,16 +328,22 @@ main {
 #projects {
   width: 100%;
   padding: 80px 0;
-  background-color: #cbab81;
+  /*background-color: #cbab81;*/
+  background-image: linear-gradient(#e2be8f, #cbab81);
   display: flex;
   justify-content: center;
+  /*border-top: 4px dashed #a78d6b;*/
+  margin-top: 0;
+ 
 }
 
 #projects h2 {
   border-bottom: 3.5px #fff8ed;
   margin: 0 0 20px 0;
-  color: #5e9e9c;
+  color: #489098;
 }
+
+
 
 #projects .content-wrapper {
   width: 90%;
@@ -367,7 +374,7 @@ main {
 }
 
 #projects a {
-  border-bottom: 5px solid #cbab81;
+  border-bottom: 5px double #D6B488;
   width: 100%;
   padding: 0;
   margin: 0;
@@ -381,7 +388,7 @@ main {
   width: 100%;
   margin: 0 0 15px 0;
   transform: rotate(-1.5deg);
-  border: 8px solid #fff8ed;
+  border: 8px solid white;
   box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.4);
 }
 
@@ -394,8 +401,9 @@ main {
 }
 
 #projects h3 {
-  color: #fff8ed;
+  color: white;
   font-size: 1.3em;
+  font-weight: 600;
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 30px;
@@ -421,11 +429,13 @@ main {
 
 /* --- Contact Section --- */
 #contact {
-  background: url(../img/brown-leaves.jpg) no-repeat #fff8edf1;
+  background: url(../img/brown-leaves.jpg) no-repeat #fcf3e6f4;
   background-size: cover;
   background-blend-mode: soft-light;
   display: flex;
   justify-content: center;
+  /*border-top: 4px dashed #f3dbbb;*/
+  /*border-bottom: 4px dashed #f3dbbb;*/
   padding: 15px 0 125px 0;
   margin-top: 0;
   margin-bottom: 0;
@@ -448,6 +458,11 @@ main {
 #contact h2 {
   margin: 80px 0 60px 0;
   width: 100%;
+  color:#489098;
+}
+
+#contact h2 span {
+  text-shadow: none;
 }
 
 #laptop-flowers {
@@ -559,10 +574,11 @@ main {
   text-align: center;
 }
 
+
 /* === FOOTER STYLES === */
 
 footer {
-  background: #ae8d6329;
+  background: #f6e7d1;
   margin-bottom: 0;
   padding-bottom: 0;
   height: auto;
@@ -570,7 +586,7 @@ footer {
   justify-content: center;
   align-items: center;
   flex-flow: column nowrap;
-  border-top: 3px dashed #efcdb2;
+  /*border-top: 4px dashed #efcdb2;*/
 }
 
 footer span {
@@ -590,7 +606,6 @@ footer a:hover {
   background:#ae8d6317;
 }
 
-
 footer #seedling-img {
   width: 40%;
   margin-top: 5px;
@@ -608,14 +623,14 @@ footer .copyright {
   display: flex;
   justify-content: center;
   width: 100%;
-  background: #ae8d6328;
+  background: #e7d3b7;
   padding: 10px 0 10px 0;
 }
 
 footer .copyright p {
   margin-bottom: 20px;
   margin-top: 25px;
-  font-size: .75em;
+  font-size: 1em;
   color: #826b4d;
 }
 
@@ -701,7 +716,7 @@ footer .copyright p {
   /* About */
 
   #about {
-    padding: 120px 0;
+    padding: 160px 0 120px 0;
   }
 
   #intro-wrapper {
@@ -1093,7 +1108,7 @@ footer .copyright p {
   /* About */
 
   #about {
-    padding: 140px 0;
+    padding: 145px 0 140px 0;
   }
 
   #intro-wrapper {
@@ -1303,7 +1318,7 @@ footer .copyright p {
   }
 
   footer p {
-    font-size: 1em;
+    font-size: 1.15em;
   }
 
   footer .copyright {
