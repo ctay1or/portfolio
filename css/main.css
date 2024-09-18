@@ -173,7 +173,6 @@ main {
   display: flex;
   justify-items: center;
   align-items: center;
-  flex-direction: row nowrap;
 }
 
 #about-content-wrapper {
@@ -238,7 +237,6 @@ main {
   align-items: center;
   flex-flow: column nowrap;
   margin: 0 25px;
-  color:
 }
 
 #tech-journey-para2 {
@@ -917,22 +915,6 @@ footer .copyright p {
     padding-left: 0;
   }
 
-  #contact .talk-soon {
-    width: 75%;
-    padding: 0;
-  }
-
-  #contact .talk-soon h2 {
-    margin: 0 auto;
-    padding: 0;
-    font-size: 2.5em;
-    text-align: center;
-    display: flex;
-    justify-content: flex-end;
-    transform: rotate(-3deg);
-    
-  }
-
   /* --- FOOTER --- */
 
   footer {
@@ -1031,7 +1013,7 @@ footer .copyright p {
   header nav ul {
     width: 100%;
     justify-content: flex-end;
-    margin: 50 0 100px 0;
+    margin: 50px 0 100px 0;
   }
 
   header nav ul li {
@@ -1047,7 +1029,7 @@ footer .copyright p {
   }
 
   h1 {
-    font-size: 5em;
+    font-size: 4.75em;
     margin-left: 20px;
     padding: 0;
     width: 60%;
@@ -1141,7 +1123,6 @@ footer .copyright p {
 
   #skills #tech-stack-wrapper {
     width: 68%;
-    align-items: space-between;
   }
 
   #skills #tech-stack-wrapper h3 {
@@ -1234,25 +1215,6 @@ footer .copyright p {
 
   #contact p {
     font-size: 1.25em;
-  }
-
-  #contact .talk-soon {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    margin: 20px 0 120px 0;
-    padding: 0;
-    width: 100%;
-  }
-
-  #contact .talk-soon h2 {
-    display: flex;
-    transform: none;
-    justify-content: center;
-    font-size: 3.5em;
-    margin: 0;
-    padding: 0;
-    width: 45%;
   }
 
   /* --- FOOTER --- */
