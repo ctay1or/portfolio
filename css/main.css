@@ -159,7 +159,7 @@ main {
 }
 
 #about {
-  background: #fff8ed;
+  background: #fffaf1;
   padding: 80px 0;
   width: 100%;
   display: flex;
@@ -303,7 +303,7 @@ main {
 }
 
 #skills ul li {
-  background-color: #fff8ed;
+  background-color: #fffaf1;
   margin-bottom: 20px;
   width: 100%;
   font-size: 1em;
@@ -457,7 +457,7 @@ main {
 }
 
 #contact-methods-wrapper {
-  background: #fff8ed;
+  background: #fffaf1;
   margin: 0 auto;
   padding: 20px 25px 50px 25px;
   display: flex;
