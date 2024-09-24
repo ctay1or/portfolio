@@ -384,7 +384,7 @@ main {
 }
 
 #projects img:active {
-  border: 9px double #fff8ed;
+  border: 6px double #fff8ed;
 }
 
 #projects h3 {
@@ -1083,7 +1083,7 @@ footer .copyright p {
   }
 
   #about h3 {
-    font-size: 1.25em;
+    font-size: 1.15em;
   }
 
   #tech-journey-wrapper {
