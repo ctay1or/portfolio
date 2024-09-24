@@ -33,12 +33,12 @@ h2 {
 
 h3 {
   color: #c5622b;
-  font-size: 1.6em;
+  font-size: 1.5em;
   font-weight: 600;
 }
 
 p {
-  color: #49312b;
+  color: #8c6c41;
   font-size: 1em;
   font-weight: 400;
   text-align: left;
@@ -96,7 +96,7 @@ header nav ul {
 }
 
 header nav ul li {
-  font-size: 1.25em;
+  font-size: .9rem;
   color: #284f54;
   font-weight: 800;
 }
@@ -130,7 +130,7 @@ header nav a:active {
 h1 {
   font-family: "Euphoria Script", cursive;
   font-weight: 800;
-  font-size: 2.5em;
+  font-size: 2.25em;
   line-height: 1.25em;
   color: #fffaf5;
   width: 95%;
@@ -141,6 +141,10 @@ h1 {
 
 h1 #leaves {
   text-shadow: none;
+}
+
+h1 #grow-span {
+  color:#e3fb8d;
 }
 
 #butterworth-span {
@@ -159,7 +163,7 @@ main {
 
 #about {
   background: #fffaf1;
-  padding: 80px 0;
+  padding: 80px 0 100px 0;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -190,9 +194,9 @@ main {
 }
 
 #my-pic {
-  border: 12px solid white;
+  border: 8px solid white;
   margin-bottom: 40px;
-  width: 50%;
+  width: 55%;
   transform: rotate(-4deg);
   box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.4);
 }
@@ -205,7 +209,8 @@ main {
   margin: 0;
   padding: 0;
   text-shadow: none;
-  font-size: 1.8em;
+  font-size: 1.5rem;
+  font-weight: 700;
   font-family: "quicksand", sans-serif;
   color: #c5622b;
 }
@@ -213,14 +218,13 @@ main {
 #web-dev {
   color: white;
   background-color: #c3a0b1;
-  font-weight: bolder;
-  font-size: 1.25em;
-  font-weight: 800;
+  font-size: 1.25rem;
+  font-weight: 600;
   line-height: 1.6em;
 }
 
 #about h3 {
-  font-size: 1.15em;
+  font-size: 1rem;
   color: #c3a0b1;
   font-weight: 500;
   line-height: 1.45em;
@@ -228,7 +232,7 @@ main {
 }
 
 #tech-journey-wrapper {
-  border: 3px dashed #efcdb2;
+  border: 2.5px dashed #efcdb2;
   padding: 20px;
   width: 100%;
   display: flex;
@@ -249,8 +253,7 @@ main {
 }
 
 #growth-mindset-span:hover {
-  background-color: #dcef9e;
-  font-weight: 400;
+  background-color: #e5f4b1;
 }
 
 /* --- Skills Section --- */
@@ -260,7 +263,7 @@ main {
   background-size: cover;
   background-blend-mode: soft-light;
   margin-bottom: 0;
-  padding: 70px 0 60px 0;
+  padding: 70px 0 80px 0;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -303,20 +306,20 @@ main {
 
 #skills ul li {
   background-color: #fffaf1;
-  margin-bottom: 20px;
+  margin-bottom: 12px;
   width: 100%;
   font-size: 1em;
   text-align: center;
   text-transform: uppercase;
   padding: 8px 3px;
-  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
 /* --- Projects Section --- */
 
 #projects {
   width: 100%;
-  padding: 80px 0;
+  padding: 80px 0 0 0;
   background-image: linear-gradient(#e2be8f, #cbab81);
   display: flex;
   justify-content: center;
@@ -352,27 +355,27 @@ main {
   margin: 0;
   padding-bottom: 0;
   font-size: 1em;
-  color: #826b4d;
+  color: #8c6c41;
   font-weight: 900;
   width: 70%;
 }
 
 #projects a {
-  border-bottom: 5px double #D6B488;
+  border-bottom: 3px double #D6B488;
   width: 100%;
   padding: 0;
   margin: 0;
 }
 
 #projects a:hover {
-  border-bottom: 5px solid #826b4d;
+  border-bottom: 3px solid #826b4d;
 }
 
 .project-img {
   width: 100%;
-  margin: 0 0 15px 0;
+  margin: 0 0 11px 0;
   transform: rotate(-1.5deg);
-  border: 8px solid white;
+  border: 6px solid white;
   box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.4);
 }
 
@@ -390,13 +393,15 @@ main {
   font-weight: 600;
   text-align: center;
   text-transform: uppercase;
+  margin-top: 25px;
   margin-bottom: 30px;
 }
 
 #projects .description {
   font-weight: 500;
   margin-bottom: 40px;
-  width: 90%;
+  width: 80%;
+  color: #775b37;
 }
 
 #projects .description span {
@@ -418,7 +423,7 @@ main {
   background-blend-mode: soft-light;
   display: flex;
   justify-content: center;
-  padding: 15px 0 75px 0;
+  padding: 15px 0 100px 0;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -448,9 +453,9 @@ main {
 }
 
 #laptop-flowers {
-  width: 65%;
+  width: 55%;
   margin-bottom: 50px;
-  border: 12px solid white;
+  border: 8px solid white;
   transform: rotate(7deg);
   box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.4);
 }
@@ -654,7 +659,7 @@ footer .copyright p {
   }
 
   #boots {
-    width: 50%;
+    width: 70%;
     margin: 20px 0;
   }
 
@@ -680,7 +685,8 @@ footer .copyright p {
   }
 
   #my-pic {
-    width: 32%;
+    width: 35%;
+    border-width: 10px;
   }
 
   #about-list-wrapper {
@@ -694,6 +700,10 @@ footer .copyright p {
   }
 
   #about h3 {
+    font-size: 1.25em;
+  }
+
+  #web-dev {
     font-size: 1.25em;
   }
 
@@ -739,12 +749,10 @@ footer .copyright p {
     flex-flow: column wrap;
     align-items: center;
     width: 90%;
-    height: 615px;
+    height: 550px;
   }
 
-  #tech-stack-wrapper ul {
-    padding: 35px 0;
-  }
+  
 
   #skills ul li {
     padding: 15px;
@@ -857,6 +865,7 @@ footer .copyright p {
   #laptop-flowers {
     width: 35%;
     transform: rotate(7deg);
+    border-width: 10px;
   }
 
   #laptop-flowers:hover {
@@ -866,7 +875,7 @@ footer .copyright p {
   #contact-methods-wrapper {
     display: flex;
     justify-content: center;
-    width: 40%;
+    width: 50%;
     height: auto;
     margin: 0;
     padding: 20px 0 45px 0;
@@ -958,14 +967,14 @@ footer .copyright p {
   /* ===--- Desktop ---=== */
 
   html {
-    width: 85%;
+    width: 90%;
     margin: 0 auto;
     background: #ae916a;
     background-size: auto;
     background-attachment: fixed;
-    outline: 5px dashed #d1ad8e;
-    border-left: 15px solid #a78b66;
-    border-right: 15px solid #a78b66;
+    outline: 3px dashed #d1ad8e;
+    border-left: 10px solid #a78b66;
+    border-right: 10px solid #a78b66;
     font-size: 16px;
   }
 
@@ -973,27 +982,35 @@ footer .copyright p {
     margin: 0;
   }
 
+  #about,
+  #skills,
+  #projects,
+  #contact {
+    padding-top: 75px;
+  }
+
   .content-wrapper {
     max-width: 90%;
   }
 
   h2 {
-    font-size: 6em;
+    font-size: 4.5em;
   }
 
   h3 {
-    font-size: 2.75em;
+    font-size: 2.5em;
   }
 
   p {
-    font-size: 1.5em;
+    font-size: 1.15em;
   }
 
   /* --- HEADER --- */
 
   header {
-    padding-bottom: 200px;
+    padding-bottom: 125px;
     width: 100%;
+    border-bottom-width: 3.25px;
   }
 
   header .content-wrapper {
@@ -1011,12 +1028,15 @@ footer .copyright p {
 
   header nav ul {
     width: 100%;
+    display: flex;
     justify-content: flex-end;
     margin: 50px 0 100px 0;
   }
 
   header nav ul li {
-    font-size: 1.75em;
+    font-size: 1.15rem;
+    display: flex;
+    justify-content: flex-end;
   }
 
   #hero-wrapper {
@@ -1024,11 +1044,11 @@ footer .copyright p {
   }
 
   #boots {
-    width: 35%;
+    width: 32%;
   }
 
   h1 {
-    font-size: 4.75em;
+    font-size: 3.75em;
     margin-left: 20px;
     padding: 0;
     width: 60%;
@@ -1043,7 +1063,7 @@ footer .copyright p {
   /* About */
 
   #about {
-    padding: 145px 0 140px 0;
+    padding: 100px 0 115px 0;
   }
 
   #intro-wrapper {
@@ -1051,11 +1071,11 @@ footer .copyright p {
   }
 
   #my-pic {
-    width: 25%;
+    width: 23%;
   }
 
   #about h2 {
-    font-size: 2.5em;
+    font-size: 2rem;
   }
 
   #about-list-wrapper {
@@ -1063,12 +1083,18 @@ footer .copyright p {
   }
 
   #about h3 {
-    font-size: 1.5em;
+    font-size: 1.25em;
   }
 
   #tech-journey-wrapper {
     display: flex;
     align-items: flex-start;
+    padding: 35px;
+    margin-top: 35px;
+  }
+
+  #tech-journey-span {
+    font-size: 1.75rem;
   }
 
   #tech-journey-para2 {
@@ -1078,7 +1104,7 @@ footer .copyright p {
   /* Skills */
 
   #skills {
-    padding: 140px 0 140px 0;
+    padding: 85px 0;
     margin: 0 auto;
     height: auto;
     width: 100%;
@@ -1096,6 +1122,10 @@ footer .copyright p {
     width: 100%;
   }
 
+  #skills h3 {
+    font-size: 2rem;
+  }
+
   #skills-wrapper {
     display: flex;
     justify-content: center;
@@ -1107,17 +1137,18 @@ footer .copyright p {
 
   #skills ul {
     width: 100%;
-    height: 450px;
+    height: 325px;
     justify-content: flex-start;
     align-items: center;
   }
 
   #skills ul li {
-    font-size: 1.5em;
+    font-size: 1.15em;
     width: 28%;
     margin-left: 0;
     justify-content: space-around;
     align-items: center;
+    padding: 12px;
   }
 
   #skills #tech-stack-wrapper {
@@ -1125,8 +1156,11 @@ footer .copyright p {
   }
 
   #skills #tech-stack-wrapper h3 {
-    margin-bottom: 25px;
     align-items: center;
+  }
+
+  #skills #tech-stack-wrapper ul {
+    height: 225px;
   }
 
   #skills #tech-stack-wrapper ul li {
@@ -1136,11 +1170,12 @@ footer .copyright p {
   /* Projects */
 
   #projects {
-    padding: 140px 0 140px 0;
+    padding: 85px 0 140px 0;
   }
 
   #projects .project-content-wrapper {
     width: 33%;
+    padding-top: 15px;
   }
 
   #projects h2 {
@@ -1150,13 +1185,13 @@ footer .copyright p {
   }
 
   .project {
-    margin: 70px 0;
+    margin: 50px 0 0 0;
   }
 
   .project .live-site {
     width: 78%;
-    font-size: 1.5em;
-    font-weight: 900;
+    font-size: 1.05em;
+    font-weight: 600;
   }
 
   .project #sticky-live {
@@ -1172,48 +1207,52 @@ footer .copyright p {
   }
 
   #projects h3 {
-    font-size: 1.75em;
+    font-size: 1.30em;
+    margin-bottom: 15px;
   }
 
   #projects .description {
-    font-size: 1.5em;
+    font-size: 1.10em;
   }
 
   /* Contact */
 
   #contact {
-    padding: 50px 0 250px 0;
+    padding: 25px 0 120px 0;
   }
 
   #contact h2 {
-    margin-bottom: 120px;
+    margin-top: 60px;
+    margin-bottom: 75px;
     margin-left: 0;
     padding-left: 0;
     width: 100%;
   }
 
   #laptop-flowers {
-    width: 23%;
+    width: 25%;
   }
 
   #contact-methods-wrapper {
     width: 70%;
-    padding: 80px 0;
+    padding: 60px 20px 60px 0;
     margin-bottom: 0;
     flex-flow: row nowrap;
     align-items: flex-start;
   }
 
   #contact h3 {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+    font-size: 1.75rem;
+    
   }
 
   #contact i {
-    font-size: 4.5em;
+    font-size: 3.15em;
   }
 
   #contact p {
-    font-size: 1.25em;
+    font-size: 1em;
   }
 
   /* --- FOOTER --- */
@@ -1225,14 +1264,15 @@ footer .copyright p {
   }
 
   footer #seedling-img {
-    width: 55%;
+    width: 60%;
   }
 
-  footer span {
-    font-size: 1.25em;
+  footer p span {
+    font-size: 1em;
+    font-weight: 600;
   }
 
-  footer p {
-    font-size: 1.15em;
+  footer .copyright p {
+    font-size: .80em;
   }
 }
