@@ -56,12 +56,12 @@ header {
   background-size: cover;
   background-position: center;
   padding-top: 0;
-  padding-bottom: 60px;
+  padding-bottom: 80px;
   position: relative;
   display: flex;
   justify-content: center;
   width: 100%;
-  border-bottom: 3px dashed #5e9e9c;
+  border-bottom: 3px dashed #284f546d;
 }
 
 header .content-wrapper {
@@ -80,23 +80,25 @@ header .content-wrapper {
 }
 
 header .banner {
+  font-family: euphoria script, script;
   background: #284f546d;
-  font-size: 1rem;
-  text-transform: lowercase;
+  font-size: 1.75rem;
   font-weight: 600;
   color: #c5fffc;
   width: 100%;
   display: flex;
   justify-content: center;
-  padding: 5px 0;
-  margin: 0 0 15px 0;
+  padding: 280px 0;
+  margin: 0 0 3px 0;
+  border-top: 3px dashed #284f546d;
 }
 
 header nav {
-  width: 75%;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  border-top: 3px dashed #284f546d;
 }
 
 ul {
@@ -116,6 +118,7 @@ header nav ul li {
   font-size: 0.9rem;
   color: #284f54;
   font-weight: 600;
+  padding-top: 10px;
 }
 
 header nav ul li a {
@@ -139,16 +142,22 @@ header nav a:active {
 }
 
 #boots {
-  max-width: 60%;
-  margin: 50px 0 20px 0;
+  max-width: 55%;
+  transform: rotate(3deg);
+  margin: 75px 0 15px 0;
   box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.4);
 }
+
+#boots:hover {
+ transform: rotate(4deg);
+}
+
 
 h1 {
   font-family: "Euphoria Script", cursive;
   font-weight: 800;
   font-size: 2.15rem;
-  line-height: 1.25em;
+  line-height: 1.15em;
   color: #fffaf5;
   width: 95%;
   text-align: center;
@@ -272,7 +281,7 @@ main {
 }
 
 #growth-mindset-span:hover {
-  background-color: #e5f4b1;
+  background: #e5f4b1;
 }
 
 /* --- Skills Section --- */
@@ -644,7 +653,7 @@ footer .copyright p {
   /* --- HEADER --- */
 
   header {
-    padding: 0 0 100px 0;
+    padding: 0 0 175px 0;
   }
 
   #header-content-wrapper {
@@ -656,13 +665,13 @@ footer .copyright p {
   }
 
   header .banner {
-    font-size: 1.5rem;
-    padding: 5px 0;
-    margin: 0 0 40px 0;
+    font-size: 4rem;
+    padding: 500px 0;
+    margin: 0 0 3px 0;
   }
 
   header nav {
-    width: 65%;
+    width: 100%;
     display: flex;
     justify-content: center;
   }
@@ -678,15 +687,15 @@ footer .copyright p {
 
   header nav ul li {
     font-size: 1.5em;
-    padding: 0 15px;
+    padding: 10px 15px 0 15px;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
   #boots {
-    width: 45%;
-    margin: 80px 0 20px 0;
+    width: 40%;
+    margin: 150px 0 15px 0;
   }
 
   h1 {
@@ -1032,9 +1041,8 @@ footer .copyright p {
   /* --- HEADER --- */
 
   header {
-    padding-bottom: 125px;
+    padding-bottom: 175px;
     width: 100%;
-    border-bottom-width: 3.25px;
   }
 
   header .content-wrapper {
@@ -1043,47 +1051,56 @@ footer .copyright p {
 
   .header-content-wrapper {
     width: 100%;
+    display: flex;
+    justify-content: flex-start;
   }
 
   header .banner {
+    font-family: euphoria script, script;
     width: 98%;
-    padding: 5px 0 5px 23px;
-    font-size: 1.25rem;
-    justify-content: flex-start;
-    margin-bottom: 10px;
+    padding: 310px 12px;
+    font-size: 5rem;
+    justify-content: center;
   }
 
   header nav {
     width: 100%;
     justify-content: flex-end;
+    margin-top: 0;
+    padding-top: 0;
   }
 
   header nav ul {
     width: 100%;
     display: flex;
     justify-content: flex-end;
-    margin: 0 15px 0 0;
+    margin-top: 10px;
   }
 
   header nav ul li {
     font-size: 1.15rem;
     display: flex;
     justify-content: flex-end;
+    padding-top: 0;
   }
 
   #hero-wrapper {
     flex-flow: row nowrap;
-    justify-content: space-around;
+    justify-content: flex-start;
+    width: 65%;
   }
 
   #boots {
-    width: 27%;
-    margin-left: 150px;
+    width: 40%;
+    margin-top: 125px;
+    margin-right: 50px;
+    transform: rotate(3deg);
   }
 
   h1 {
     font-size: 3.5em;
-    margin: 75px 0 0 0;
+    line-height: 1.15em;
+    margin: 100px 0 0 0;
     padding: 0;
     width: 60%;
   }
@@ -1303,7 +1320,7 @@ footer .copyright p {
   }
 
   footer #seedling-img {
-    width: 60%;
+    width: 50%;
   }
 
   footer p span {
