@@ -51,7 +51,7 @@ p {
 /* === HEADER STYLES === */
 
 header {
-  background: url(../img/leaves.png) no-repeat #77bcaff3;
+  background: url(../img/leaves.png) no-repeat #77bcaff0;
   background-blend-mode: lighten;
   background-size: cover;
   background-position: center;
@@ -61,7 +61,7 @@ header {
   display: flex;
   justify-content: center;
   width: 100%;
-  border-bottom: 3px dashed #284f546d;
+  border-bottom: 4px dashed #67a99e;
 }
 
 header .content-wrapper {
@@ -103,7 +103,7 @@ header nav ul li {
   font-size: 0.9rem;
   color: #284f54;
   font-weight: 900;
-  padding-top: 10px;
+  padding-top: 15px;
 }
 
 header nav ul li a {
@@ -137,7 +137,7 @@ header nav #ct:hover {
 
 header .banner {
   font-family: euphoria script, script;
-  background: #284f546d;
+  background: #284f545b;
   font-size: 2rem;
   font-weight: 600;
   color: #c5fffc;
@@ -146,7 +146,7 @@ header .banner {
   margin-top: 10px;
   justify-content: center;
   padding: 280px 0;
-  border-top: 3px dashed #284f546d;
+  border-top: 15px double #72b9ad;
   border-bottom: 15px double #72b9ad;
 }
 
@@ -708,7 +708,7 @@ footer .copyright p {
 
   header nav ul li {
     font-size: 1.5em;
-    padding: 15px 15px 5px 15px;
+    padding: 20px 15px 5px 15px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1088,15 +1088,6 @@ footer .copyright p {
     justify-content: flex-start;
   }
 
-  header .banner {
-    font-family: euphoria script, script;
-    width: 98%;
-    padding: 305px 12px;
-    font-size: 5rem;
-    justify-content: center;
-    margin-top: 0;
-  }
-
   header nav {
     width: 100%;
     justify-content: flex-end;
@@ -1114,11 +1105,18 @@ footer .copyright p {
     font-size: 1.15rem;
     display: flex;
     justify-content: flex-end;
-    padding: 10px 20px;
+    padding: 15px 20px 8px 20px;
+  }
+
+  header .banner {
+    width: 98%;
+    padding: 305px 12px;
+    font-size: 4rem;
+    justify-content: center;
+    margin-top: 0;
   }
 
   header .banner i {
-    font-size: ;
     margin: 35px 20px 0 20px;
   }
 
@@ -1136,7 +1134,7 @@ footer .copyright p {
   }
 
   h1 {
-    font-size: 3.5em;
+    font-size: 3.25rem;
     line-height: 1.15em;
     margin: 100px 0 0 0;
     padding: 0;
