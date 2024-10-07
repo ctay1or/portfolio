@@ -51,7 +51,7 @@ p {
 /* === HEADER STYLES === */
 
 header {
-  background: url(../img/leaves.png) repeat #77bcaff3;
+  background: url(../img/leaves.png) no-repeat #77bcaff3;
   background-blend-mode: lighten;
   background-size: cover;
   background-position: center;
@@ -79,26 +79,11 @@ header .content-wrapper {
   flex-flow: column nowrap;
 }
 
-header .banner {
-  font-family: euphoria script, script;
-  background: #284f546d;
-  font-size: 1.75rem;
-  font-weight: 600;
-  color: #c5fffc;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  padding: 280px 0;
-  margin: 0 0 3px 0;
-  border-top: 3px dashed #284f546d;
-}
-
 header nav {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-top: 3px dashed #284f546d;
 }
 
 ul {
@@ -117,7 +102,7 @@ header nav ul {
 header nav ul li {
   font-size: 0.9rem;
   color: #284f54;
-  font-weight: 600;
+  font-weight: 900;
   padding-top: 10px;
 }
 
@@ -126,12 +111,49 @@ header nav ul li a {
   color: #284f54;
 }
 
-header nav a:hover {
+header nav #leaf {
+  color:#284f54;
+}
+
+header nav #leaf:hover {
   color: #c5fffc;
 }
 
-header nav a:active {
-  color: #e2c49d;
+header nav #ab:hover {
+  color: #ffd9ea;
+}
+
+header nav #sk:hover {
+  color: #ffddbd;
+}
+
+header nav #wk:hover {
+  color: #fff8ed;
+}
+
+header nav #ct:hover {
+  color: #d4f581;
+}
+
+header .banner {
+  font-family: euphoria script, script;
+  background: #284f546d;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #c5fffc;
+  width: 100%;
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+  padding: 280px 0;
+  border-top: 3px dashed #284f546d;
+  border-bottom: 15px double #72B9AD;
+}
+
+header .banner i {
+  color: #aad247;
+  font-size: .55em;
+  margin: 15px 10px 20px 10px;
 }
 
 #hero-wrapper {
@@ -139,6 +161,7 @@ header nav a:active {
   justify-content: center;
   align-items: center;
   flex-flow: column nowrap;
+  padding: 50px 0 75px 0;
 }
 
 #boots {
@@ -167,8 +190,9 @@ h1 {
   margin-bottom: 0;
 }
 
-h1 #leaves {
-  text-shadow: none;
+h1 i {
+  font-size: .65em;
+  color: #284f5493;
 }
 
 h1 #grow-span {
@@ -257,6 +281,10 @@ main {
   font-weight: 400;
   line-height: 1.45em;
   margin-top: 20px;
+}
+
+#about h3 .growth-junkie {
+  color: #596d00;
 }
 
 #tech-journey-wrapper {
@@ -664,12 +692,6 @@ footer .copyright p {
     flex-flow: column nowrap;
   }
 
-  header .banner {
-    font-size: 4rem;
-    padding: 500px 0;
-    margin: 0 0 3px 0;
-  }
-
   header nav {
     width: 100%;
     display: flex;
@@ -687,10 +709,22 @@ footer .copyright p {
 
   header nav ul li {
     font-size: 1.5em;
-    padding: 10px 15px 0 15px;
+    padding: 15px 15px 5px 15px;
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  header .banner {
+    font-size: 4rem;
+    padding: 500px 0;
+    margin: 10px 0 3px 0;
+  }
+
+  header .banner i {
+    color: #aad247;
+    font-size: ;
+    margin: 30px 20px 20px 20px;
   }
 
   #boots {
@@ -1058,9 +1092,10 @@ footer .copyright p {
   header .banner {
     font-family: euphoria script, script;
     width: 98%;
-    padding: 310px 12px;
+    padding: 305px 12px;
     font-size: 5rem;
     justify-content: center;
+    margin-top: 0;
   }
 
   header nav {
@@ -1074,14 +1109,18 @@ footer .copyright p {
     width: 100%;
     display: flex;
     justify-content: flex-end;
-    margin-top: 10px;
   }
 
   header nav ul li {
     font-size: 1.15rem;
     display: flex;
     justify-content: flex-end;
-    padding-top: 0;
+    padding: 10px 20px;
+  }
+
+  header .banner i {
+    font-size: ;
+    margin: 35px 20px 0 20px;
   }
 
   #hero-wrapper {
@@ -1160,7 +1199,7 @@ footer .copyright p {
   /* Skills */
 
   #skills {
-    padding: 85px 0;
+    padding: 85px 0 100px 0;
     margin: 0 auto;
     height: auto;
     width: 100%;
@@ -1320,7 +1359,7 @@ footer .copyright p {
   }
 
   footer #seedling-img {
-    width: 50%;
+    width: 55%;
   }
 
   footer p span {
