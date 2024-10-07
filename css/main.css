@@ -112,7 +112,7 @@ header nav ul li a {
 }
 
 header nav #leaf {
-  color:#284f54;
+  color: #284f54;
 }
 
 header nav #leaf:hover {
@@ -147,12 +147,12 @@ header .banner {
   justify-content: center;
   padding: 280px 0;
   border-top: 3px dashed #284f546d;
-  border-bottom: 15px double #72B9AD;
+  border-bottom: 15px double #72b9ad;
 }
 
 header .banner i {
   color: #aad247;
-  font-size: .55em;
+  font-size: 0.55em;
   margin: 15px 10px 20px 10px;
 }
 
@@ -172,9 +172,8 @@ header .banner i {
 }
 
 #boots:hover {
- transform: rotate(4deg);
+  transform: rotate(4deg);
 }
-
 
 h1 {
   font-family: "Euphoria Script", cursive;
@@ -191,7 +190,7 @@ h1 {
 }
 
 h1 i {
-  font-size: .65em;
+  font-size: 0.65em;
   color: #284f5493;
 }
 
