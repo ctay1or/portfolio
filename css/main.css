@@ -103,7 +103,7 @@ header nav ul li {
   font-size: 0.9rem;
   color: #284f54;
   font-weight: 900;
-  padding-top: 15px;
+  padding-top: 10px;
 }
 
 header nav ul li a {
@@ -138,12 +138,12 @@ header nav #ct:hover {
 header .banner {
   font-family: euphoria script, script;
   background: #284f545b;
-  font-size: 2rem;
+  font-size: 1.75rem;
   font-weight: 600;
   color: #c5fffc;
   width: 100%;
   display: flex;
-  margin-top: 10px;
+  margin-top: 5px;
   justify-content: center;
   padding: 280px 0;
   border-top: 15px double #72b9ad;
@@ -151,9 +151,9 @@ header .banner {
 }
 
 header .banner i {
+  font-size: 1.25rem;
   color: #aad247;
-  font-size: 0.55em;
-  margin: 15px 10px 20px 10px;
+  margin: 12px 10px;
 }
 
 #hero-wrapper {
@@ -721,9 +721,9 @@ footer .copyright p {
   }
 
   header .banner i {
-    color: #aad247;
-    font-size: ;
-    margin: 30px 20px 20px 20px;
+    font-size: 2.45rem;
+    margin: 25px 15px;
+    padding: 8px 8px 0 8px;
   }
 
   #boots {
@@ -1117,7 +1117,7 @@ footer .copyright p {
   }
 
   header .banner i {
-    margin: 35px 20px 0 20px;
+    margin: 25px 15px 10px 15px;
   }
 
   #hero-wrapper {
